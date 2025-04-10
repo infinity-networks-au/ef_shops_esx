@@ -15,17 +15,14 @@ ui_page 'web/build/index.html'
 
 shared_scripts {
 	'@ox_lib/init.lua',
-	'@qbx_core/modules/lib.lua',
 	'shared/**/*.lua'
 }
 
 client_scripts {
-	'@qbx_core/modules/playerdata.lua',
 	'client/**/*.lua'
 }
 
 server_scripts {
-	'@qbx_core/modules/hooks.lua',
 	'@oxmysql/lib/MySQL.lua',
 	'server/**/*.lua'
 }
